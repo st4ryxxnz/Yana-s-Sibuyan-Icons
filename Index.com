@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibuyan, Romblon</title>
+    <style>
+        /* Font Imports */
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+        /* Body Styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(250, 239, 221, 0.8)), url('vintage-paper-texture.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #4a3c2f;
+            min-height: 100vh; /* Ensure full height */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Allow for top alignment */
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        /* Heading Styling */
+        h1 {
+            font-family: 'Crimson Text', serif;
+            font-size: 50px; /* Adjusted to fit content */
+            color: #6b4f3a;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 50px 0 20px; /* Reduced margin bottom */
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+            line-height: 1.2;
+            word-wrap: break-word; /* Ensures long words break correctly */
+        }
+
+        /* Intro Text Styling */
+        .intro-text {
+            font-family: 'Crimson Text', serif;
+            font-size: 22px;
+            color: #5a4533;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        /* Button Styling */
+        .btn {
+            background-color: #9e7c55;
+            color: #fff;
+            padding: 18px 40px;
+            font-size: 24px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            margin-top: 20px; /* Reduced margin to bring it closer */
+        }
+
+        .btn:hover {
+            background-color: #7c5e3a;
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Footer Styling */
+        .footer {
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            color: #5a4533;
+            margin-top: 20px; /* Reduced the margin-top for closer spacing */
+            font-style: italic;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .footer a {
+            color: #9e7c55;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #7c5e3a;
+        }
+
+        /* Decorative Line Between Sections */
+        .line {
+            width: 80%;
+            margin: 10px auto; /* Reduced margin to bring the line closer */
+            border-top: 2px solid #6b4f3a;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 40px;
+                margin-top: 30px;
+            }
+
+            .intro-text {
+                font-size: 18px;
+                padding: 20px;
+                margin: 20px auto 30px;
+            }
+
+            .btn {
+                font-size: 20px;
+                padding: 14px 30px;
+            }
+
+            .footer {
+                font-size: 16px;
+            }
+        }
+
+        /* Fixing the spacing below the "Explore Now" button */
+        .btn-container {
+            margin-bottom: 40px; /* Adjusted spacing below the button */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Discover the Hidden Paradise of Sibuyan, Romblon</h1>
+
+    <div class="intro-text">
+        <p>Ready to experience something truly special? Sibuyan Island, a hidden gem nestled in the heart of the Philippines, is calling you. From the towering heights of Mt. Guiting-Guiting to the serene beauty of Cantingas River, this island offers unspoiled natural beauty that will leave you in awe.</p>
+        <p>Whether you seek thrilling adventures, peaceful waterfalls, or pristine beaches, Sibuyan will fulfill your every desire for nature’s raw and untouched splendor. Come explore and discover the warmth of the people and the magic of this unspoiled paradise.</p>
+        <p>Your journey to a hidden paradise starts here!</p>
+    </div>
+
+    <div class="footer">
+        <p>Created by: Aiyana Tiffany V. Quileste<br>Grade & Section: 10-SSC Mapagkalinga</p>
+    </div>
+
+       <!-- Button with adjusted spacing -->
+    <div class="btn-container">
+        <a href="table.html" class="btn">Explore Now</a>
+    </div>
+
+</body>
+</html>
+    
